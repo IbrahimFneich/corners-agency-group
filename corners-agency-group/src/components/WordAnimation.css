@@ -1,7 +1,7 @@
 #logo{
     width: 30%;
     height: 30%;
-    animation: fill 0.5s ease forwards 1.1s;
+    animation: fill 0.2s ease forwards 1.1s;
 }
 
 #logo path:nth-child(1){

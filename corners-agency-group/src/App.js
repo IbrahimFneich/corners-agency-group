@@ -11,6 +11,10 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <Services></Services>
+      <Services></Services>
+      <Services></Services>
+      <Services></Services>
+
        
        
        
