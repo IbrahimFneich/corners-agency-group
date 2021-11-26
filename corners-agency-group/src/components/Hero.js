@@ -18,13 +18,13 @@ export default function Hero() {
 
     gsap.to(".mainText",{
       scrollTrigger:{
-        trigger : ".mainText",
+        trigger : ".mainDiv",
         start: "top top",
         markers:true,
         scrub:true,
         toggleActions: "restart pause reverse none"
       },
-      x:100,
+      opacity:0,
       duration:2
     })
   },[]);
@@ -32,8 +32,13 @@ export default function Hero() {
 
 
   return (
-    <div>
-      <div className="mainText">
+    <div  
+    className="mainDiv"
+    style={{
+        height:'100vh'
+    }}
+>
+      <div className="mainText" >
       <center>
         <span>
         <p class="font-lora text-9xl " >We make </p>
@@ -51,7 +56,7 @@ export default function Hero() {
          
     
     
-                <p class="font-lora text-9xl " >Things, Everyday.</p>
+        <p class="font-lora text-9xl " >Things, Everyday.</p>
       </center>
             
       </div>
