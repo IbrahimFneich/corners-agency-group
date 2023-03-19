@@ -85,8 +85,7 @@ export default function Header() {
       <div className="max-w-9xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
-              <span className="sr-only">Workflow</span>
+            <a href="/">
               <img
                 className="h-6 w-auto sm:h-6"
                 src="/images/corners-logo-3.jpeg"
@@ -109,7 +108,7 @@ export default function Header() {
             <a href="/about" className="text-base font-medium text-gray-500 hover:text-gray-900">
               About Us
             </a>
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="/team" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Team
             </a>
             <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
